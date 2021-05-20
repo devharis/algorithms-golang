@@ -9,5 +9,6 @@ import (
 func main() {
 	fmt.Println("Let's write sorting algos...")
 
-	sorting.SelectionSort()
+	//sorting.SelectionSort()
+	sorting.BubbleSort()
 }

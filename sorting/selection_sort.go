@@ -3,11 +3,11 @@ package sorting
 import "fmt"
 
 // Selection Sort sorts values by tracking index of min value and comparing it with rest of the values in given array.
-// If a value is lower than current min, it will swap these values until it reaches EOA.
+// If a value is lower than current min, it becomes current min and then swaps these values until it reaches EOA.
 // Note: This implementation is not stable, as in it won't preserve the order of duplicate values due to swap.
 //
 //
-// Time complexity 	O(n^2)
+// Time complexity O(n^2)
 // Space complexity O(1)
 
 func SelectionSort() {
