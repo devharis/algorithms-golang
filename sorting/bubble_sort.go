@@ -10,6 +10,8 @@ import "fmt"
 // Space complexity O(1)
 
 func BubbleSort() {
+	fmt.Println("BubbleSort")
+
 	arr := [10]int{1, 20, 5, 15, 19, 3, 8, 17, 6, 12}
 	n := len(arr)
 

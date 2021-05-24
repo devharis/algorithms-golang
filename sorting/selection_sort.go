@@ -11,6 +11,8 @@ import "fmt"
 // Space complexity O(1)
 
 func SelectionSort() {
+	fmt.Println("SelectionSort")
+
 	arr := [6]int{5, 10, 1, 3, 20, 12}
 	n := len(arr)
 
