@@ -11,20 +11,22 @@ import "fmt"
 // Space complexity O(n)
 
 func MergeSort() {
+	fmt.Println("MergeSort")
+
 	arr := []int{1, 20, 5, 10, 3, 6}
 
-	arr = sort(arr)
+	arr = msort(arr)
 	fmt.Println(arr)
 }
 
-func sort(arr []int) []int {
+func msort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr
 	}
 
 	m := len(arr) / 2
-	l := sort(arr[:m])
-	r := sort(arr[m:])
+	l := msort(arr[:m])
+	r := msort(arr[m:])
 
 	return merge(l, r)
 }

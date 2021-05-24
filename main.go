@@ -9,5 +9,5 @@ import (
 func main() {
 	fmt.Println("Let's write sorting algos...")
 
-	sorting.MergeSort()
+	sorting.QuickSort()
 }

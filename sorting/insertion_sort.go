@@ -10,6 +10,8 @@ import "fmt"
 // Space complexity O(1)
 
 func InsertionSort() {
+	fmt.Println("InsertionSort")
+
 	arr := [3]int{1, 20, 5}
 	n := len(arr)
 
